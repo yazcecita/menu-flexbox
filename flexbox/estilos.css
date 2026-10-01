@@ -1,0 +1,59 @@
+
+* body{
+    margin: 0px;
+    padding: 0px;
+
+    font-family: 'Times New Roman', Times, serif;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 15px 20px;
+
+    background: #585858;
+
+    margin-bottom: 30px;
+    box-sizing: border-box;
+}
+
+h1{
+    
+    color: #ebdcdc;
+    font-size: 1.6em;
+    margin: 0%;
+}
+
+section{
+    background: #4ec213;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    overflow-x: auto;
+}
+
+article{
+    display: flex;
+    justify-content: space-between;
+}
+
+img{
+    border: solid 5px #df0d0d;
+    margin: 10px;
+    padding: 10px;
+    object-fit: cover;
+    width: 35px;
+    height: 35px;
+}
+
+.voler-menu {
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 20px;
+    cursor: pointer;
+
+}
